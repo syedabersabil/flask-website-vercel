@@ -13,6 +13,7 @@
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
+                <li><a href="/chat">AI Chat</a></li>
             </ul>
         </div>
     </nav>
@@ -20,28 +21,42 @@
     <main class="container">
         <div class="content">
             <h2>About This Project</h2>
-            <p>This is a Python Flask web application configured for deployment on Vercel.</p>
+            <p>This is a Python Flask web application with integrated AI chat capabilities, configured for deployment on Vercel.</p>
             
             <h3>Features:</h3>
             <ul>
                 <li>Python Flask backend</li>
+                <li>Hugging Face DistilGPT-2 model (82M parameters)</li>
+                <li>Real-time AI chat without API keys</li>
                 <li>HTML templates with Jinja2</li>
-                <li>CSS styling</li>
-                <li>API endpoint example</li>
+                <li>CSS styling with animations</li>
+                <li>API endpoints for data and chat</li>
                 <li>Vercel deployment ready</li>
             </ul>
             
             <h3>Tech Stack:</h3>
             <ul>
                 <li>Flask 3.0.0</li>
+                <li>Transformers 4.36.0 (Hugging Face)</li>
+                <li>PyTorch 2.1.0</li>
+                <li>DistilGPT-2 LLM</li>
                 <li>HTML5 & CSS3</li>
+                <li>JavaScript (Fetch API)</li>
                 <li>Vercel Serverless Functions</li>
+            </ul>
+            
+            <h3>AI Model:</h3>
+            <ul>
+                <li><strong>Model:</strong> DistilGPT-2</li>
+                <li><strong>Size:</strong> 82 million parameters</li>
+                <li><strong>Type:</strong> Text generation</li>
+                <li><strong>No API key required</strong> - runs directly on server</li>
             </ul>
         </div>
     </main>
     
     <footer>
-        <p>Made with Flask & Vercel</p>
+        <p>Made with Flask, Hugging Face & Vercel</p>
     </footer>
 </body>
 </html>
