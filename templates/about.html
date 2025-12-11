@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Flask Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Flask Website</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <div class="content">
+            <h2>About This Project</h2>
+            <p>This is a Python Flask web application configured for deployment on Vercel.</p>
+            
+            <h3>Features:</h3>
+            <ul>
+                <li>Python Flask backend</li>
+                <li>HTML templates with Jinja2</li>
+                <li>CSS styling</li>
+                <li>API endpoint example</li>
+                <li>Vercel deployment ready</li>
+            </ul>
+            
+            <h3>Tech Stack:</h3>
+            <ul>
+                <li>Flask 3.0.0</li>
+                <li>HTML5 & CSS3</li>
+                <li>Vercel Serverless Functions</li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Made with Flask & Vercel</p>
+    </footer>
+</body>
+</html>
